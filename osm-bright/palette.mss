@@ -34,42 +34,27 @@ Map { font-directory: url(./fonts); }
 @text_adjust: 0;
 
 /* ================================================================== */
-/* COLOR PALETTE
-/* ================================================================== */
-@grey1: #595959;
-@black: #000000; 
-@white: #ffffff;
-@grey2: #8F8F8F;
-@grey3: #D6D6D6;
-@orange: #FF6600;
-@blue: #4BB4E6;
-@yellow: #FFDC00;
-@green: #50BE87;
-@purple: #9164CD;
-@pink: #FFB4E6;
-
-/* ================================================================== */
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              @grey1;
-@water:             @blue;
-@grass:             @green;
-@beach:             @yellow;
-@park:              @green;
-@cemetery:          @grey3;
-@wooded:            @green;
-@agriculture:       @grey3;
+@land:              #FCFBE7;
+@water:             #C4DFF6;
+@grass:             #E6F2C1;
+@beach:             #FFEEC7;
+@park:              #DAF2C1;
+@cemetery:          #D6DED2;
+@wooded:            #C3D9AD;
+@agriculture:       #F2E8B6;
 
-@building:          @orange;
-@hospital:          @purple;
-@school:            @purple;
-@sports:            @green;
+@building:          #E4E0E0;
+@hospital:          rgb(229,198,195);
+@school:            #FFF5CC;
+@sports:            #B8E6B8;
 
-@residential:       @grey3;
-@commercial:        @grey3;
-@industrial:        @grey3;
-@parking:           @grey3;
+@residential:       @land * 0.98;
+@commercial:        @land * 0.97;
+@industrial:        @land * 0.96;
+@parking:           #EEE;
 
 /* ================================================================== */
 /* ROAD COLORS
@@ -84,45 +69,45 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     @grey1;
+@motorway_line:     #E65C5C;
 @motorway_fill:     lighten(@motorway_line,10%);
 @motorway_case:     @motorway_line * 0.9;
 
-@trunk_line:        @grey1;
+@trunk_line:        #E68A5C;
 @trunk_fill:        lighten(@trunk_line,10%);
 @trunk_case:        @trunk_line * 0.9;
 
-@primary_line:      @grey1;
+@primary_line:      #FFC859;
 @primary_fill:      lighten(@primary_line,10%);
 @primary_case:      @primary_line * 0.9;
 
-@secondary_line:    @grey1;
+@secondary_line:    #FFE873;
 @secondary_fill:    lighten(@secondary_line,10%);
 @secondary_case:    @secondary_line * 0.9;
 
-@standard_line:     @grey1;
-@standard_fill:     @grey1;
+@standard_line:     @land * 0.85;
+@standard_fill:     #fff;
 @standard_case:     @land * 0.9;
 
-@pedestrian_line:   @grey1;
-@pedestrian_fill:   @grey1;
-@pedestrian_case:   @grey1;
+@pedestrian_line:   @standard_line;
+@pedestrian_fill:   #FAFAF5;
+@pedestrian_case:   @land;
 
-@cycle_line:        @grey1;
-@cycle_fill:        @grey1;
-@cycle_case:        @grey1;
+@cycle_line:        @standard_line;
+@cycle_fill:        #FAFAF5;
+@cycle_case:        @land;
 
-@rail_line:         @grey1;
-@rail_fill:         @grey1;
-@rail_case:         @grey1;
+@rail_line:         #999;
+@rail_fill:         #fff;
+@rail_case:         @land;
 
-@aeroway:           @grey1;
+@aeroway:           #ddd;
 
 /* ================================================================== */
 /* BOUNDARY COLORS
 /* ================================================================== */
 
-@admin_2:           @purple;
+@admin_2:           #324;
 
 /* ================================================================== */
 /* LABEL COLORS

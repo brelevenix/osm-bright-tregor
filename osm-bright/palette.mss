@@ -108,7 +108,7 @@ Map { font-directory: url(./fonts); }
 @pedestrian_fill:   @grey1;
 @pedestrian_case:   @grey1;
 
-@cycle_line:        @grey1;;
+@cycle_line:        @grey1;
 @cycle_fill:        @grey1;
 @cycle_case:        @grey1;
 

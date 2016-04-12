@@ -52,24 +52,24 @@ Map { font-directory: url(./fonts); }
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              @grey1;
+@land:              @white;
 @water:             @blue;
 @grass:             @green;
 @beach:             @yellow;
 @park:              @green;
-@cemetery:          @grey3;
+@cemetery:          @white;
 @wooded:            @green;
-@agriculture:       @grey3;
+@agriculture:       @white;
 
 @building:          @orange;
 @hospital:          @purple;
 @school:            @purple;
 @sports:            @green;
 
-@residential:       @grey3;
-@commercial:        @grey3;
-@industrial:        @grey3;
-@parking:           @grey3;
+@residential:       @white;
+@commercial:        @white;
+@industrial:        @white;
+@parking:           @white;
 
 /* ================================================================== */
 /* ROAD COLORS
@@ -84,39 +84,39 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     @grey1;
+@motorway_line:     @black;
 @motorway_fill:     lighten(@motorway_line,10%);
 @motorway_case:     @motorway_line * 0.9;
 
-@trunk_line:        @grey1;
+@trunk_line:        @black;
 @trunk_fill:        lighten(@trunk_line,10%);
 @trunk_case:        @trunk_line * 0.9;
 
-@primary_line:      @grey1;
+@primary_line:      @black;
 @primary_fill:      lighten(@primary_line,10%);
 @primary_case:      @primary_line * 0.9;
 
-@secondary_line:    @grey1;
+@secondary_line:    @black;
 @secondary_fill:    lighten(@secondary_line,10%);
 @secondary_case:    @secondary_line * 0.9;
 
-@standard_line:     @grey1;
-@standard_fill:     @grey1;
+@standard_line:     @black;
+@standard_fill:     @black;
 @standard_case:     @land * 0.9;
 
-@pedestrian_line:   @grey1;
-@pedestrian_fill:   @grey1;
-@pedestrian_case:   @grey1;
+@pedestrian_line:   @black;
+@pedestrian_fill:   @black;
+@pedestrian_case:   @black;
 
-@cycle_line:        @grey1;
-@cycle_fill:        @grey1;
-@cycle_case:        @grey1;
+@cycle_line:        @black;
+@cycle_fill:        @black;
+@cycle_case:        @black;
 
-@rail_line:         @grey1;
-@rail_fill:         @grey1;
-@rail_case:         @grey1;
+@rail_line:         @black;
+@rail_fill:         @black;
+@rail_case:         @black;
 
-@aeroway:           @grey1;
+@aeroway:           @black;
 
 /* ================================================================== */
 /* BOUNDARY COLORS

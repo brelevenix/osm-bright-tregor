@@ -85,20 +85,20 @@ Map { font-directory: url(./fonts); }
  */
 
 @motorway_line:     @black;
-@motorway_fill:     lighten(@motorway_line,10%);
-@motorway_case:     @motorway_line * 0.9;
+@motorway_fill:     lighten(@motorway_line,50%);
+@motorway_case:     @motorway_line * 0.5;
 
 @trunk_line:        @black;
-@trunk_fill:        lighten(@trunk_line,10%);
-@trunk_case:        @trunk_line * 0.9;
+@trunk_fill:        lighten(@trunk_line,50%);
+@trunk_case:        @trunk_line * 0.5;
 
 @primary_line:      @black;
-@primary_fill:      lighten(@primary_line,10%);
-@primary_case:      @primary_line * 0.9;
+@primary_fill:      lighten(@primary_line,50%);
+@primary_case:      @primary_line * 0.5;
 
 @secondary_line:    @black;
-@secondary_fill:    lighten(@secondary_line,10%);
-@secondary_case:    @secondary_line * 0.9;
+@secondary_fill:    lighten(@secondary_line,50%);
+@secondary_case:    @secondary_line * 0.5;
 
 @standard_line:     @black;
 @standard_fill:     @black;

@@ -15,8 +15,7 @@
   text-face-name:@sans_bold;
   text-placement:point;
   text-fill:@country_text;
-  text-halo-fill: @country_halo;
-  text-halo-radius: 1;
+
   [zoom=3] {
     text-size:10 + @text_adjust;
     text-wrap-width: 40;
@@ -50,8 +49,7 @@
   text-face-name:@sans_bold_italic;
   text-placement:point;
   text-fill:@state_text;
-  text-halo-fill: @state_halo;
-  text-halo-radius: 1;
+
   [zoom=6] {
     text-size:10 + @text_adjust;
     text-wrap-width: 40;
@@ -87,11 +85,10 @@
   text-face-name:@sans;
   text-placement:point;
   text-fill:@city_text;
-  text-halo-fill:@city_halo;
-  text-halo-radius:2;
+
   [zoom<=8] {
     text-size: 10;
-    text-halo-radius:1;
+
   }
   [zoom=9] {
     text-size:10;
@@ -139,11 +136,10 @@
   text-placement:point;
   text-fill:@town_text;
   text-size:9;
-  text-halo-fill:@town_halo;
-  text-halo-radius:1;
+
   text-wrap-width: 50;
   [zoom>=10] {
-    text-halo-radius:2;
+
     text-size: 10;
   }
   [zoom>=11]{ text-size:11; }
@@ -189,8 +185,7 @@
   text-placement:point;
   text-fill:@other_text;
   text-size:10;
-  text-halo-fill:@other_halo;
-  text-halo-radius:1;
+
   text-wrap-width: 30;
   [zoom>=14] {
     text-size:11;
@@ -230,8 +225,7 @@
   text-placement:point;
   text-fill:@locality_text;
   text-size:9;
-  text-halo-fill:@locality_halo;
-  text-halo-radius:1;
+
   text-wrap-width: 30;
   [zoom>=16] {
     text-size:10;
@@ -270,35 +264,32 @@
     text-face-name:@sans;
     text-size: 11;
     text-wrap-width:30;
-    text-fill: #888;
-    text-halo-fill: #fff;
+
     // Specific style overrides for different types of areas:
     [type='park'][zoom>=10] {
       text-face-name: @sans_lt_italic;
-      text-fill: @park * 0.6;
-      text-halo-fill: lighten(@park, 10);
+      text-fill: @black;
+      
     }
     [type='golf_course'][zoom>=10] {
-      text-fill: @sports * 0.6;
-      text-halo-fill: lighten(@sports, 10);
+      text-fill: @black;
+
     }
     [type='cemetery'][zoom>=10] {
-      text-fill: @cemetery * 0.6;
-      text-halo-fill: lighten(@cemetery, 10);
+      text-fill: @black;
+
     }
     [type='hospital'][zoom>=10] {
-      text-fill: @hospital * 0.6;
-      text-halo-fill: lighten(@hospital, 10);
+      text-fill: @black;
+
     }
     [type='college'][zoom>=10],
     [type='school'][zoom>=10],
     [type='university'][zoom>=10] {
-      text-fill: @school * 0.6;
-      text-halo-fill: lighten(@school, 10);
+      text-fill: @black;
     }
     [type='water'][zoom>=10] {
-      text-fill: @water * 0.6;
-      text-halo-fill: lighten(@water, 10);
+      text-fill: @black;
     }
   }
   [zoom=15][area>1600000],
@@ -309,7 +300,7 @@
     text-size: 13;
     text-wrap-width: 60;
     text-character-spacing: 1;
-    text-halo-radius: 2;
+
   }
   [zoom=16][area>1600000],
   [zoom=17][area>80000],
@@ -334,7 +325,7 @@
   text-face-name:@sans;
   text-size:10;
   text-wrap-width:30;
-  text-fill: @poi_text;
+text-fill: @black;
 }
 
 
@@ -347,9 +338,9 @@
 #waterway_label[type='stream'][zoom>=17] {
   text-name: '[name]';
   text-face-name: @sans_italic;
-  text-fill: @water * 0.75;
-  text-halo-fill: fadeout(lighten(@water,5%),25%);
-  text-halo-radius: 1;
+  text-fill: @black;
+
+
   text-placement: line;
   text-min-distance: 400;
   text-size: 10;
@@ -406,8 +397,7 @@
   text-face-name:@sans_bold;
   text-placement:line;
   text-fill:@road_text;
-  text-halo-fill:@road_halo;
-  text-halo-radius:1;
+
   text-min-distance:60;
   text-size:10;
   [zoom=11] { text-min-distance:70; }
@@ -422,8 +412,7 @@
   text-face-name:@sans;
   text-placement:line;
   text-fill:@road_text;
-  text-halo-fill:@road_halo;
-  text-halo-radius:1;
+
   text-min-distance:60;
   text-size:11;
 }
@@ -434,8 +423,7 @@
   text-placement:line;
   text-size:9;
   text-fill:@road_text;
-  text-halo-fill:@road_halo;
-  text-halo-radius:1;
+
   text-min-distance:60;
   text-size:11;
 }

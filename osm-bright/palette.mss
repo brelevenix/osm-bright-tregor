@@ -149,10 +149,10 @@ Map { font-directory: url(./fonts); }
 @road_text:         @black;
 @road_halo:         @place_halo;
 
-@other_text:        @place_halo;
+@other_text:        @black;
 @other_halo:        @place_halo;
 
-@locality_text:     @place_halo;
+@locality_text:     @black;
 @locality_halo:     @land;
 
 /* Also used for other small places: hamlets, suburbs, localities */

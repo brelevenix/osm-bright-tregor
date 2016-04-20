@@ -62,8 +62,8 @@ Map { font-directory: url(./fonts); }
 @agriculture:       @white;
 
 @building:          @orange;
-@hospital:          @purple;
-@school:            @purple;
+@hospital:          @white;
+@school:            @white;
 @sports:            @green;
 
 @residential:       @white;
@@ -85,31 +85,31 @@ Map { font-directory: url(./fonts); }
  */
 
 @motorway_line:     @black;
-@motorway_fill:     lighten(@motorway_line,50%);
-@motorway_case:     @motorway_line * 0.5;
+@motorway_fill:     lighten(@motorway_line,80%);
+@motorway_case:     @motorway_line * 0.8;
 
 @trunk_line:        @black;
-@trunk_fill:        lighten(@trunk_line,50%);
-@trunk_case:        @trunk_line * 0.5;
+@trunk_fill:        lighten(@trunk_line,70%);
+@trunk_case:        @trunk_line * 0.7;
 
 @primary_line:      @black;
-@primary_fill:      lighten(@primary_line,50%);
-@primary_case:      @primary_line * 0.5;
+@primary_fill:      lighten(@primary_line,60%);
+@primary_case:      @primary_line * 0.6;
 
 @secondary_line:    @black;
 @secondary_fill:    lighten(@secondary_line,50%);
 @secondary_case:    @secondary_line * 0.5;
 
 @standard_line:     @black;
-@standard_fill:     @black;
-@standard_case:     @land * 0.9;
+@standard_fill:     @white;
+@standard_case:     @black;
 
 @pedestrian_line:   @black;
-@pedestrian_fill:   @black;
+@pedestrian_fill:   @white;
 @pedestrian_case:   @black;
 
 @cycle_line:        @black;
-@cycle_fill:        @black;
+@cycle_fill:        @white;
 @cycle_case:        @black;
 
 @rail_line:         @black;
@@ -130,33 +130,33 @@ Map { font-directory: url(./fonts); }
 
 /* We set up a default halo color for places so you can edit them all
    at once or override each individually. */
-@place_halo:        fadeout(#fff,34%);
+@place_halo:        fadeout(#fff,0%);
 
-@country_text:      #435;
+@country_text:      @black;
 @country_halo:      @place_halo;
 
-@state_text:        #546;
+@state_text:        @black;
 @state_halo:        @place_halo;
 
-@city_text:         #444;
+@city_text:         @black;
 @city_halo:         @place_halo;
 
-@town_text:         #666;
+@town_text:         @black;
 @town_halo:         @place_halo;
 
-@poi_text:          #888;
+@poi_text:          @black;
 
-@road_text:         #777;
-@road_halo:         #fff;
+@road_text:         @black;
+@road_halo:         @place_halo;
 
-@other_text:        #888;
+@other_text:        @place_halo;
 @other_halo:        @place_halo;
 
-@locality_text:     #aaa;
+@locality_text:     @place_halo;
 @locality_halo:     @land;
 
 /* Also used for other small places: hamlets, suburbs, localities */
-@village_text:      #888;
+@village_text:      @black;
 @village_halo:      @place_halo;
 
 /* ****************************************************************** */

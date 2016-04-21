@@ -260,7 +260,6 @@
   [zoom>=17][area>5000],
   [zoom>=18][area>=0] {
     text-name: "[name]";
-    text-halo-radius: 1.5;
     text-face-name:@sans;
     text-size: 11;
     text-wrap-width:30;
@@ -291,6 +290,10 @@
     [type='water'][zoom>=10] {
       text-fill: @black;
     }
+    [type='sand'][zoom>=10] {
+      text-fill: @yellow;
+    }
+    
   }
   [zoom=15][area>1600000],
   [zoom=16][area>80000],

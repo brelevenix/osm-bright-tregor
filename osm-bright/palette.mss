@@ -52,24 +52,24 @@ Map { font-directory: url(./fonts); }
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              @white;
+@land:              @green;
 @water:             @blue;
 @grass:             @green;
 @beach:             @yellow;
 @park:              @green;
-@cemetery:          @white;
+@cemetery:          @grey;
 @wooded:            @green;
-@agriculture:       @white;
+@agriculture:       @green;
 
-@building:          @orange;
-@hospital:          @white;
-@school:            @white;
-@sports:            @green;
+@building:          @grey2;
+@hospital:          @grey2;
+@school:            @grey2;
+@sports:            @grey2;
 
-@residential:       @white;
-@commercial:        @white;
-@industrial:        @white;
-@parking:           @white;
+@residential:       @grey;
+@commercial:        @grey;
+@industrial:        @grey;
+@parking:           @grey;
 
 /* ================================================================== */
 /* ROAD COLORS

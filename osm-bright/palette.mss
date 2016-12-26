@@ -57,7 +57,7 @@ Map { font-directory: url(./fonts); }
 @grass:             @green;
 @beach:             @yellow;
 @park:              @green;
-@cemetery:          @grey;
+@cemetery:          @grey1;
 @wooded:            @green;
 @agriculture:       @green;
 
@@ -66,10 +66,10 @@ Map { font-directory: url(./fonts); }
 @school:            @grey2;
 @sports:            @grey2;
 
-@residential:       @grey;
-@commercial:        @grey;
-@industrial:        @grey;
-@parking:           @grey;
+@residential:       @grey1;
+@commercial:        @grey1;
+@industrial:        @grey1;
+@parking:           @grey1;
 
 /* ================================================================== */
 /* ROAD COLORS

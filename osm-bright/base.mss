@@ -60,7 +60,7 @@
   }
 
 /* ---- BUILDINGS ---- */
-#buildings[zoom>=12][zoom<=16] {
+#buildings[zoom>=14][zoom<=16] {
   polygon-fill:@building;
   [zoom>=14] {
     line-color:darken(@building,5%);
@@ -102,11 +102,11 @@ Map { background-color: @water; }
 
 #waterway_low[zoom>=8][zoom<=12] {
   line-color: @water;
-  [zoom=8] { line-width: 0.1; }
-  [zoom=9] { line-width: 0.2; }
-  [zoom=10]{ line-width: 0.4; }
-  [zoom=11]{ line-width: 0.6; }
-  [zoom=12]{ line-width: 0.8; }
+  [zoom=8] { line-width: 0.2; }
+  [zoom=9] { line-width: 0.4; }
+  [zoom=10]{ line-width: 0.8; }
+  [zoom=11]{ line-width: 1.2; }
+  [zoom=12]{ line-width: 1.6; }
 }
 
 #waterway_med[zoom>=13][zoom<=14] {
@@ -115,12 +115,12 @@ Map { background-color: @water; }
   [type='canal'] {
     line-cap: round;
     line-join: round;
-    [zoom=13]{ line-width: 1; }
-    [zoom=14]{ line-width: 1.5; }
+    [zoom=13]{ line-width: 2; }
+    [zoom=14]{ line-width: 2.5; }
   }
   [type='stream'] {
-    [zoom=13]{ line-width: 0.2; }
-    [zoom=14]{ line-width: 0.4; }
+    [zoom=13]{ line-width: 0.4; }
+    [zoom=14]{ line-width: 0.8; }
   }
 }
   
@@ -130,19 +130,19 @@ Map { background-color: @water; }
   [type='canal'] {
     line-cap: round;
     line-join: round;
-    [zoom=15]{ line-width: 2; }
-    [zoom=16]{ line-width: 3; }
-    [zoom=17]{ line-width: 4; }
-    [zoom=18]{ line-width: 5; }
-    [zoom=19]{ line-width: 6; }
-    [zoom>19]{ line-width: 7; }
+    [zoom=15]{ line-width: 4; }
+    [zoom=16]{ line-width: 6; }
+    [zoom=17]{ line-width: 8; }
+    [zoom=18]{ line-width: 10; }
+    [zoom=19]{ line-width: 12; }
+    [zoom>19]{ line-width: 14; }
   }
   [type='stream'] {
-    [zoom=15]{ line-width: 0.6; }
-    [zoom=16]{ line-width: 0.8; }
-    [zoom=17]{ line-width: 1; }
-    [zoom=18]{ line-width: 1.5; }
-    [zoom>18]{ line-width: 2; }
+    [zoom=15]{ line-width: 1.2; }
+    [zoom=16]{ line-width: 1.6; }
+    [zoom=17]{ line-width: 2; }
+    [zoom=18]{ line-width: 3; }
+    [zoom>18]{ line-width: 4; }
   }
   [type='ditch'],
   [type='drain'] {

@@ -76,7 +76,7 @@ Map { font-directory: url(./fonts); }
 @sports:            @green-light;
 
 @residential:       @green-light;
-@commercial:        @@green-light;
+@commercial:        @green-light;
 @industrial:        @green-light;
 @parking:          @green-light;
 

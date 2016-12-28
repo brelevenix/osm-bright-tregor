@@ -42,7 +42,7 @@ Map { font-directory: url(./fonts); }
 
 @grey-light: #cccccc;
 @grey-medium: #999999;
-@grey-strong:  #333333;
+@grey-strong:  #777777;
 
 @orange: #FF6600;
 
@@ -52,7 +52,7 @@ Map { font-directory: url(./fonts); }
 @yellow-light: #ffff99;
 
 @green: #006600;
-@green-light: #99ff99;
+@green-light: #E5E5E5;
 
 @purple: #9164CD;
 @pink: #FFB4E6;

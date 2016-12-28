@@ -66,19 +66,19 @@ Map { font-directory: url(./fonts); }
 @grass:             @green;
 @beach:             @yellow;
 @park:              @green;
-@cemetery:          @green-light;
+@cemetery:          @grey-light;
 @wooded:            @green;
 @agriculture:      @green-light;
 
 @building:          @grey-strong;
-@hospital:          @green-light;
-@school:            @green-light;
-@sports:            @green-light;
+@hospital:          @grey-light;
+@school:            @grey-light;
+@sports:           @grey-light;
 
-@residential:       @green-light;
-@commercial:        @green-light;
-@industrial:        @green-light;
-@parking:          @green-light;
+@residential:       @grey-light;
+@commercial:       @grey-light;
+@industrial:        @grey-light;
+@parking:          @grey-light;
 
 /* ================================================================== */
 /* ROAD COLORS
@@ -94,32 +94,32 @@ Map { font-directory: url(./fonts); }
  */
 
 @motorway_line:     @white;
-@motorway_fill:     lighten(@motorway_line,80%);
-@motorway_case:     @motorway_line * 0.8;
+@motorway_fill:      @white;
+@motorway_case:      @white;
 
 @trunk_line:        @white;
-@trunk_fill:        lighten(@trunk_line,70%);
-@trunk_case:        @trunk_line * 0.7;
+@trunk_fill:         @white;
+@trunk_case:         @white;
 
 @primary_line:      @white;
-@primary_fill:      lighten(@primary_line,60%);
-@primary_case:      @primary_line * 0.6;
+@primary_fill:       @white;
+@primary_case:       @white;
 
 @secondary_line:    @white;
-@secondary_fill:    lighten(@secondary_line,50%);
-@secondary_case:    @secondary_line * 0.5;
+@secondary_fill:     @white;
+@secondary_case:    @white;
 
 @standard_line:     @white;
 @standard_fill:     @white;
-@standard_case:     @black;
+@standard_case:      @white;
 
 @pedestrian_line:   @purple;
-@pedestrian_fill:   @white;
-@pedestrian_case:   @black;
+@pedestrian_fill:  @purple;
+@pedestrian_case:  @purple;
 
 @cycle_line:        @purple;
-@cycle_fill:        @white;
-@cycle_case:        @black;
+@cycle_fill:        @purple;
+@cycle_case:        @purple;
 
 @rail_line:         @black;
 @rail_fill:         @black;

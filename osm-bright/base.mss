@@ -38,6 +38,7 @@
   [type='stadium']       { polygon-fill: @sports; }
   [type='university']    { polygon-fill: @school; }
   [type='wood']          { polygon-fill: @wooded; }
+  [type='beach']         { polygon-fill: @yellow; }
 }
 
 #landuse_overlays[type='nature_reserve'][zoom>6] {
@@ -60,14 +61,11 @@
   }
 
 /* ---- BUILDINGS ---- */
-#buildings[zoom>=14][zoom<=16] {
-  polygon-fill:@building;
-  [zoom>=14] {
-    line-color:darken(@building,5%);
-    line-width:0.2;
-  }
+#buildings[zoom>=16][zoom<=16] {
+ 
   [zoom>=16] {
     line-color:darken(@building,10%);
+      building-fill:@grey-light;
     line-width:0.4;
   }
 }

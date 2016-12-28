@@ -107,7 +107,7 @@ come in as well.
   [zoom=16] {
     [stylegroup='motorway'] { line-width: @rdz16_maj ;}
     [stylegroup='mainroad'] { line-width: @rdz16_med; }
-    [stylegroup='minorroad']{ line-width: @rdz16_min +; }
+    [stylegroup='minorroad']{ line-width: @rdz16_min; }
     [stylegroup='service']  { line-width: @rdz16_min / 3 + 2; }
     [stylegroup='noauto']   { line-width: @rdz16_maj+2; }
     [stylegroup='railway']  { line-width: 2 + 2; }

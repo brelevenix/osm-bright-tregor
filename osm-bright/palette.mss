@@ -57,7 +57,7 @@ Map { font-directory: url(./fonts); }
 @purple: #9164CD;
 @pink: #FFB4E6;
 
-@brown: #D7EFD9;
+@path: #D7EFD9;
 
 /* ================================================================== */
 /* LANDUSE & LANDCOVER COLORS

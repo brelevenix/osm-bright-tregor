@@ -166,6 +166,7 @@ come in as well.
   [stylegroup='service'],
   [stylegroup='minorroad'] {
     line-width: 0;
+    line-color: @black;
   }
   [stylegroup='service'],
   [stylegroup='minorroad'],
@@ -185,14 +186,14 @@ come in as well.
     [stylegroup='motorway'] { line-width: @rdz11_maj; }
     [stylegroup='mainroad'] { line-width: @rdz11_med; }
     [stylegroup='minorroad']{ line-width: 0; }
-    [stylegroup='noauto']   { line-width: @rdz11_maj ; line-color: @brown; }
+    [stylegroup='noauto']   { line-width: @rdz11_maj ; line-color: @black; }
     [stylegroup='railway']  { line-width: 0.2; }
   }
   [zoom=12] {
     [stylegroup='motorway'] { line-width: @rdz12_maj; }
     [stylegroup='mainroad'] { line-width: @rdz12_med; }
     [stylegroup='minorroad']{ line-width: 0; }
-   [stylegroup='noauto']   { line-width: @rdz12_maj ; line-color: @brown; }
+   [stylegroup='noauto']   { line-width: @rdz12_maj ; line-color: @black; }
     [stylegroup='railway']  { line-width: 0.4; }
   }
   [zoom=13] {
@@ -200,7 +201,7 @@ come in as well.
     [stylegroup='mainroad'] { line-width: @rdz13_med; }
     [stylegroup='minorroad']{ line-width: @rdz13_min; }
     [stylegroup='service']  { line-width: @rdz13_min / 3; }
-    [stylegroup='noauto']   { line-width: @rdz13_maj ; line-color: @brown;}
+    [stylegroup='noauto']   { line-width: @rdz13_maj ; line-color: @black;}
     [stylegroup='railway']  { line-width: 0.8; }
   }
   [zoom=14] {
@@ -208,7 +209,7 @@ come in as well.
     [stylegroup='mainroad'] { line-width: @rdz14_med; }
     [stylegroup='minorroad']{ line-width: @rdz14_min; }
     [stylegroup='service']  { line-width: @rdz14_min / 3; }
-    [stylegroup='noauto']   { line-width: @rdz14_maj; line-color: @brown; }
+    [stylegroup='noauto']   { line-width: @rdz14_maj; line-color: @black; }
     [stylegroup='railway']  { line-width: 1; }
   }
   [zoom=15] {
@@ -216,7 +217,7 @@ come in as well.
     [stylegroup='mainroad'] { line-width: @rdz15_med; }
     [stylegroup='minorroad']{ line-width: @rdz15_min; }
     [stylegroup='service']  { line-width: @rdz15_min / 3; }
-    [stylegroup='noauto']   { line-width: @rdz15_maj; line-color: @brown; }
+    [stylegroup='noauto']   { line-width: @rdz15_maj; line-color: @black; }
     [stylegroup='railway']  { line-width: 1.5; }
   }
   [zoom=16] {
@@ -224,7 +225,7 @@ come in as well.
     [stylegroup='mainroad'] { line-width: @rdz16_med; }
     [stylegroup='minorroad']{ line-width: @rdz16_min; }
     [stylegroup='service']  { line-width: @rdz16_min / 3; }
-    [stylegroup='noauto']   { line-width: @rdz16_maj ; line-color: @brown;}
+    [stylegroup='noauto']   { line-width: @rdz16_maj ; line-color: @black;}
     [stylegroup='railway']  { line-width: 2; }
   }
   [zoom=17] {
@@ -232,7 +233,7 @@ come in as well.
     [stylegroup='mainroad'] { line-width: @rdz17_med; }
     [stylegroup='minorroad']{ line-width: @rdz17_min; }
     [stylegroup='service']  { line-width: @rdz17_min / 3; }
-    [stylegroup='noauto']   { line-width: @rdz17_maj ; line-color: @brown;}
+    [stylegroup='noauto']   { line-width: @rdz17_maj ; line-color: @black;}
     [stylegroup='railway']  { line-width: 3; }
   }
   [zoom>=18] {
@@ -240,7 +241,7 @@ come in as well.
     [stylegroup='mainroad'] { line-width: @rdz18_med; }
     [stylegroup='minorroad']{ line-width: @rdz18_min; }
     [stylegroup='service']  { line-width: @rdz18_min / 2; }
-    [stylegroup='noauto']   { line-width: @rdz18_maj  ; line-color: @brown; }
+    [stylegroup='noauto']   { line-width: @rdz18_maj  ; line-color: @black; }
     [stylegroup='railway']  { line-width: 4; }
   }
 }

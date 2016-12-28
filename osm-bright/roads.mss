@@ -166,6 +166,7 @@ come in as well.
   [stylegroup='service'],
   [stylegroup='minorroad'] {
     line-width: 0;
+    line-color: @brown;
   }
   [stylegroup='service'],
   [stylegroup='minorroad'],
@@ -206,7 +207,7 @@ come in as well.
     [stylegroup='mainroad'] { line-width: @rdz14_med; }
     [stylegroup='minorroad']{ line-width: @rdz14_min; }
     [stylegroup='service']  { line-width: @rdz14_min / 3; }
-    [stylegroup='noauto']   { line-width: @rdz14_min; }
+    [stylegroup='noauto']   { line-width: @rdz14_min*4; }
     [stylegroup='railway']  { line-width: 1; }
   }
   [zoom=15] {

@@ -11,14 +11,14 @@ more than just automobile routes - railways, footways, and cycleways
 come in as well.
 
 /* Road width variables that are used in road & bridge styles */
-@rdz11_maj: 1.6; @rdz11_med: 0.8; @rdz11_min: 0.4;
-@rdz12_maj: 2.5; @rdz12_med: 1.2; @rdz12_min: 0.8;
-@rdz13_maj: 3;   @rdz13_med: 1.5; @rdz13_min: 1;
-@rdz14_maj: 4;   @rdz14_med: 2.5; @rdz14_min: 1.6;
-@rdz15_maj: 6;   @rdz15_med: 4;   @rdz15_min: 2;
+@rdz11_maj: 0.3; @rdz11_med: 0.2; @rdz11_min: 0.1;
+@rdz12_maj: 0.5; @rdz12_med: 0.4; @rdz12_min: 0.2;
+@rdz13_maj: 1;   @rdz13_med: 0.8; @rdz13_min: 0.5;
+@rdz14_maj: 2;   @rdz14_med: 1.5; @rdz14_min: 1;
+@rdz15_maj: 4;   @rdz15_med: 3;   @rdz15_min: 2;
 @rdz16_maj: 8;   @rdz16_med: 6;   @rdz16_min: 4;
-@rdz17_maj: 14;  @rdz17_med: 12;  @rdz17_min: 10;
-@rdz18_maj: 20;  @rdz18_med: 17;  @rdz18_min: 14;
+@rdz17_maj: 16;  @rdz17_med: 12;  @rdz17_min: 8;
+@rdz18_maj: 32;  @rdz18_med: 24;  @rdz18_min: 16;
 
 /* ---- Casing ----------------------------------------------- */
 
